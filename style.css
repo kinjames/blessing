@@ -737,4 +737,9 @@ footer {
         flex-direction: column;
         gap: 30px;
     }
+
+    #contact,#donate {
+        background-attachment: scroll;
+
+    }
 }
