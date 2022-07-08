@@ -328,21 +328,25 @@ header {
     background-color: #eb3238;
     padding: 20px;
     border-radius: 0 0 10px 10px;
+    height: 100%;
 }
 .text-container3 {
     background-color: #eb268e;
     padding: 20px;
     border-radius: 0 0 10px 10px;
+    height: 100%;
 }
 .text-container2 {
     background-color: #01a55e;
     padding: 20px;
     border-radius: 0 0 10px 10px;
+    height: 100%;
 }
 
 .text {
     color: #fff;
     text-align: center;
+    height: 100%;
 
 }
 
@@ -485,6 +489,7 @@ header {
 .news1 {
     display: flex;
     justify-content: center;
+    gap: 60px;
 }
 
 .news-container {
@@ -696,6 +701,11 @@ footer {
     color: #fccd2d;
 }
 
+.coder {
+    padding: 20px 0;
+    text-align: center;
+}
+
 
 
 
@@ -769,7 +779,7 @@ footer {
         width: 100%;
     }
 
-    .card-container,.diff-container,.team-section,.donate-container {
+    .card-container,.diff-container,.team-section,.donate-container,.news1 {
         flex-direction: column;
         width: 100%;
     }
